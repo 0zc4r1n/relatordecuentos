@@ -54,7 +54,7 @@ docker image build -t <nombre_imagen> .
 
 1. Ejecutar contenedor:
 ```
-docker container run --rm <nombre_imagen>
+docker container run -it --rm <nombre_imagen>
 ```
 ## Anexo - Formato del archivo de cuentos
 
