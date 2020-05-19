@@ -1,0 +1,10 @@
+TITULO: Conversación casual.
+Oscar <:> Hola, como estay?
+Juan <:> Hola Oscar, Bien!... y tu?
+Oscar <:> Bien tambien Juan!!
+Juan <:> Ahhh que bueno Oscar!!
+Oscar <:> Bueno... Chao entonces...
+Juan <:>  Siii... Chao. Nos vemos luego.
+Oscar <:> Nos vemos.
+FIN
+
