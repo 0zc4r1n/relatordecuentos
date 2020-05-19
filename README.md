@@ -29,28 +29,6 @@ make
 ```
 ./relator <ruta_del_cuento.txt>
 ```
-## Formato del archivo de cuentos
-
-El archivo de cuentos puede ser cualquier archivo de texto con cualquier extensión.
-Por defecto (sin darle un archivo al ejecutarlo) el programa buscará el archivo cuento.txt que esta en la misma carpeta donde se ejecuta el programa.
-
-#### El formato
-
-El contenido debe ser de la siguiente forma para que se visualice correctamente:
-
-```
-TITULO DEL CUENTO
-PERSONAJE1 <:> Algo que decir
-PERSONAJE2 <:> Algo que decir tambien
-
-...
-
-PERSONAJE1 <:> Algo que decir nuevamente
-PERSONAJE2 <:> Algo que decir nuevamente (otra vez)
-FIN
-```
-La carpeta cuentos, posee un cuento de ejemplo.
-
 ## Opción 2 - Compilación y ejecución utilizando Docker
 
 #### Requisitos para compilar los fuentes
@@ -78,3 +56,25 @@ docker image build -t <nombre_imagen> .
 ```
 docker container run --rm <nombre_imagen>
 ```
+## Anexo - Formato del archivo de cuentos
+
+El archivo de cuentos puede ser cualquier archivo de texto con cualquier extensión.
+Por defecto (sin darle un archivo al ejecutarlo) el programa buscará el archivo cuento.txt que esta en la misma carpeta donde se ejecuta el programa.
+
+#### El formato
+
+El contenido debe ser de la siguiente forma para que se visualice correctamente:
+
+```
+TITULO DEL CUENTO
+PERSONAJE1 <:> Algo que decir
+PERSONAJE2 <:> Algo que decir tambien
+
+...
+
+PERSONAJE1 <:> Algo que decir nuevamente
+PERSONAJE2 <:> Algo que decir nuevamente (otra vez)
+FIN
+```
+La carpeta cuentos, posee un cuento de ejemplo.
+
