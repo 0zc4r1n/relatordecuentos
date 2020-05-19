@@ -1,7 +1,7 @@
 # Relator de cuentos
 Proyecto desarrollado en C para relatar un cuento a partir de un archivo de textos formateado.
 
-## Compilación y ejecución tradicional (A manito... jejeje)
+## Opcion 1 - Compilación y ejecución tradicional (A manito... jejeje)
 
 #### Requisitos para compilar los fuentes
 
@@ -51,7 +51,7 @@ FIN
 ```
 La carpeta cuentos, posee un cuento de ejemplo.
 
-## Compilación y ejecución utilizando Docker
+## Opción 2 - Compilación y ejecución utilizando Docker
 
 #### Requisitos para compilar los fuentes
 
